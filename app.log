@@ -1,0 +1,116 @@
+2024-03-18 17:31:25,089 - WARNING:  * Debugger is active!
+2024-03-18 17:31:25,100 - INFO:  * Debugger PIN: 985-888-686
+2024-03-18 18:30:20,698 - ERROR: An error occurred while loading the model: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2024-03-18 18:30:20,711 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.37:5000
+2024-03-18 18:30:20,712 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 22:53:59,122 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.14:5000
+2024-03-18 22:53:59,122 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 22:54:43,522 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:54:43] code 400, message Bad request version ('\x8e\x94ã\x90')
+2024-03-18 22:54:43,522 - INFO: 127.0.0.1 - - [18/Mar/2024 22:54:43] "[31m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03i\x84\x9e\x05÷\x1d<Ðö\x01y¨}\x14üÇ1cï\x99\x1b\x0fÄ¢ÉÏm1ä\x1a2K ¸]+\x1e\x8e\x94ã\x90[0m" 400 -
+2024-03-18 22:54:43,523 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:54:43] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+2024-03-18 22:54:43,525 - INFO: 127.0.0.1 - - [18/Mar/2024 22:54:43] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03C\x02÷\x88\x95öR°J¢r\x05ìL\x83KÎM(bZ¼\x16r, e\x02\x0f­è\\ O\x7f¸hqQ\x1f§\x1f\x07\x17#\x99aá\x0dnAp~ÕåAüË\x16<\x164ä5¸\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93[0m" 400 -
+2024-03-18 22:54:43,527 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:54:43] code 400, message Bad request version ('â¥\x1b\x90ñkÐøõÃ¹K±å®1nJ\x98\x12×÷\x19¯Í\x0fã6ö\x8fJ2\x00')
+2024-03-18 22:54:43,528 - INFO: 127.0.0.1 - - [18/Mar/2024 22:54:43] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03El0v­\x04-\x92ý\x97:\x07\x02}í6\x16W[ì\x12dø¤,\x0c/í\x0ca\x13³ ©\x0eÂËS4\x82Ê»@ìvµ3%\x9e0G 5uNH\x89ÿ\x9d8\x875XhÌ\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ºº\x00\x00Di\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x003\x00+\x00)ZZ\x00\x01\x00\x00\x1d\x00 â¥\x1b\x90ñkÐøõÃ¹K±å®1nJ\x98\x12×÷\x19¯Í\x0fã6ö\x8fJ2\x00[0m" 400 -
+2024-03-18 22:54:43,528 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:54:43] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03UèYUeowºo\x033ãª8')
+2024-03-18 22:54:43,528 - INFO: 127.0.0.1 - - [18/Mar/2024 22:54:43] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03UèYUeowºo\x033ãª8\x1f¹=[0m" 400 -
+2024-03-18 22:54:43,529 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:54:43] code 400, message Bad request version ('Ò)Ã\x9cV\x03\x03º\x84Àìn~¥%þ4\x89$\x94\x8dò\x81\x83\x1b')
+2024-03-18 22:54:43,529 - INFO: 127.0.0.1 - - [18/Mar/2024 22:54:43] "[31m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03ä{V\x97*,\x95ýv#^¼\x86IIü·ôc}a\x14ñc*ª\x85Û¯\x8dRà Ò)Ã\x9cV\x03\x03º\x84Àìn~¥%þ4\x89$\x94\x8dò\x81\x83\x1b[0m" 400 -
+2024-03-18 22:54:43,530 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:54:43] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00')
+2024-03-18 22:54:43,530 - INFO: 127.0.0.1 - - [18/Mar/2024 22:54:43] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Wè¿&)8«LEb`"\x81\x01\x99\x98`åOiÞ«\x17ÃtbÒËá\x98\x85Õ SxÂ|EijtØ`Ô'å4F¿t'âð"SæB\x95\x81·2\x84\x1db#\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x12\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00+\x00\x07\x06zz\x03\x04\x03\x03ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01Di\x00\x05\x00\x03\x02h2\x00[0m" 400 -
+2024-03-18 22:55:37,315 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.14:5000
+2024-03-18 22:55:37,315 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 22:56:00,645 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.14:5000
+2024-03-18 22:56:00,645 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 22:56:07,176 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:56:07] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+2024-03-18 22:56:07,176 - INFO: 127.0.0.1 - - [18/Mar/2024 22:56:07] "[31m[1m\x16\x03\x01\x02:\x01\x00\x026\x03\x03\x1f\x06\x9aÉ\x0e\x82´MóG+5WDpT¨l«x_\x13ß<ômìæÁpf_ ¬\\¼\x18\x91 Bèâ!\x17 ÿ\x0f4\x09R3\x19êNî\x06úO\x0c46£Ø/â\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Íjj\x00\x00Di\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x003\x00+\x00)\x1a\x1a\x00\x01\x00\x00\x1d\x00 NvM]\x8fë~·Z­ k¥å¨\x1c\x12v\x12U{ÉHú½\x08µÙëøa\x7f\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00[0m" 400 -
+2024-03-18 22:56:07,177 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:56:07] code 400, message Bad request version ('äyEÄBlÛ')
+2024-03-18 22:56:07,178 - INFO: 127.0.0.1 - - [18/Mar/2024 22:56:07] "[31m[1m\x16\x03\x01\x02:\x01\x00\x026\x03\x03uD¬qg\x16òOÏ\x80®Ò!A %\x9f \x1e[§ä\x85}×Ö\x82\x1d,R\x07\x94 äyEÄBlÛ[0m" 400 -
+2024-03-18 22:56:07,178 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:56:07] code 400, message Bad request version ('\x02h2\x08http/1.1ÿ\x01\x00\x01\x00Di\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00')
+2024-03-18 22:56:07,178 - INFO: 127.0.0.1 - - [18/Mar/2024 22:56:07] "[31m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03\x95\x02\x9açªçfú\x14t!8wàhæ\x90ô/:\x9cÇ\x089\x8fNd'\x8a\x98l\x88 P\x09.\x05ó£w\x99ÏL½^#&=æ\x15\x95µExä\x09Obi{\x05(\x9a¸\x1b\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­ÚÚ\x00\x00\x00\x0b\x00\x02\x01\x00\x00#\x00\x00þ\x0d\x00ú\x00\x00\x01\x00\x01¹\x00 \x02·\x80\x1b­ëø\x08\x06\x1dv9Ó(ó\x09\x92\x9cÃ\x87¡´7Í¾\x13a\x83\x9a\x87|]\x00Ð«\x8eÎ\x83A8i($\x83ÀÐÇ3\x06Å\x92§\x06Ág\x1bV\x1f\x09¥Oó¸ò\x912:20át¯úÆX\x88ÞF\x1aZ8-\x04É\x9d\x19ÉE\x12ÑÒT\x17æâU\x11Ý\x12\x89ý¶\x0cAùmT8\x8cT\x0bãR`:\x9aj\x165#\x12pÚ@XÑ~IbÂ>\x91\x85¬k\x82*ð\x81Z(\x88üÍû\x03I5\x95\x92»¯³\x9cö4\x92ðÔì\x94&&æ§=V\\Í\x93@\x1e\x80HM\x9dm\x0bVxAV[Á\x03JeÍ=j^r´ÿ¤õ¡üC¹\x86Á\x09\x13\x99§|\x8c4ÎU@bk¸@/ï\x85Ë\x1cq\x89kÿKÿIØ|\x85\x14\x1cù\x9d(î§2D\x13¦\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x003\x00+\x00)\x1a\x1a\x00\x01\x00\x00\x1d\x00 \x7fÜHÿ\x99i\x15jú\x059·Þ¤\x87\x8a\x8d lËU)\x8eÀm\x9fÜ(\x0bÂg\\\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1ÿ\x01\x00\x01\x00Di\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00[0m" 400 -
+2024-03-18 22:56:07,180 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:56:07] code 400, message Bad request version ('\x88±')
+2024-03-18 22:56:07,181 - INFO: 127.0.0.1 - - [18/Mar/2024 22:56:07] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¶:j\x04ó52\x8d3ºñhä\x8bÞ\x12\x94\x03÷`\x11ôë\x86Í¿Ð\x92[zøT \x8bU\x0e\x0f{$¦´{<­Üµ±ö\x89»Êü.Öa/Òª\x1e\x95ÿI\x0fq5\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ÊÊ\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00#\x00\x00þ\x0d\x00º\x00\x00\x01\x00\x01b\x00 Uf5ÆÖÕ§r;\x98&\x06\x8dk\\ï\x9dOéc\x00=¸\x00<\x0c$©Íù\x99\x04\x00\x90'\x8dÍc¶Õ\x96nÎå¼(Ã¨AM¹8læ\x87\x1aÎ\x85\x88±[0m" 400 -
+2024-03-18 22:56:23,123 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:56:23] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+2024-03-18 22:56:23,123 - INFO: 127.0.0.1 - - [18/Mar/2024 22:56:23] "[31m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03É\x0f\x9e\x85\x8eåQì/ÅÏðî»õ\\jzD\x83\x02\x10\x8a\x1c\x85ÅK\x99~u4¸ \x08áÐ\x1dQÖ\x1dx\x10¸Þ\x8eÆ:\x94ÂN¹õ\x05\x8d:\x0cQí/÷jf^K\x8e\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­úú\x00\x00\x00+\x00\x07\x06ºº\x03\x04\x03\x03\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x003\x00+\x00)zz\x00\x01\x00\x00\x1d\x00 \x05­yxqá$\x8eé7¤²\x13\x06ç6A[Uç\x0b½ã6y\x99\x92\x06×[-E\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00[0m" 400 -
+2024-03-18 22:56:23,125 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:56:23] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03o¯')
+2024-03-18 22:56:23,126 - INFO: 127.0.0.1 - - [18/Mar/2024 22:56:23] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03o¯[0m" 400 -
+2024-03-18 22:56:23,128 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:56:23] code 400, message Bad request version ('\x00\x02\x01\x00\x00#\x00\x00\x00')
+2024-03-18 22:56:23,128 - INFO: 127.0.0.1 - - [18/Mar/2024 22:56:23] "[31m[1m\x16\x03\x01\x02:\x01\x00\x026\x03\x03R\x0d8\x02Ó¨Ë[H\x8cÎa¢"æ\x07píu¯ÛÇ\x03§Û>âÍ?C®\x03 ÿg\x849\x1eK.Ä\x00\x99÷T¹3Ò»ç\x03\x0eDÛÈé}WÛG¢à:És\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01Í**\x00\x00\x00\x17\x00\x00\x00\x12\x00\x00\x003\x00+\x00)JJ\x00\x01\x00\x00\x1d\x00 \x03Þ]\x17È#A\x01¹Å­YF³H\x03D\x0c^\x02ø"Ó¸\x85(ªÍ¤QÇ]\x00\x0b\x00\x02\x01\x00\x00#\x00\x00\x00[0m" 400 -
+2024-03-18 22:56:23,129 - ERROR: 127.0.0.1 - - [18/Mar/2024 22:56:23] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+2024-03-18 22:56:23,131 - INFO: 127.0.0.1 - - [18/Mar/2024 22:56:23] "[31m[1m\x16\x03\x01\x02\x1a\x01\x00\x02\x16\x03\x03\x8aßÒé¢\x8e\x9eõ_#\x08\x08yJh¼¡'ß*Æª%J³\x05Ë Ó\x09W# |\x00\x95b·­â\x0e\x9aóLé\x94Uð9ç\x8c"\x17Ý°\x93Ôa-ay»\x90tÍ\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01­ÊÊ\x00\x00\x00\x17\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00[0m" 400 -
+2024-03-18 22:56:57,119 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-18 22:56:57,119 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 22:58:36,124 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-18 22:58:36,124 - INFO: [33mPress CTRL+C to quit[0m
+2024-03-18 22:59:38,744 - INFO: Rendering index.html
+2024-03-18 22:59:38,753 - INFO: 127.0.0.1 - - [18/Mar/2024 22:59:38] "GET / HTTP/1.1" 200 -
+2024-03-18 22:59:38,875 - INFO: 127.0.0.1 - - [18/Mar/2024 22:59:38] "GET /static/styles.css HTTP/1.1" 200 -
+2024-03-18 22:59:38,887 - INFO: 127.0.0.1 - - [18/Mar/2024 22:59:38] "GET /static/script.js HTTP/1.1" 200 -
+2024-03-18 22:59:38,910 - INFO: 127.0.0.1 - - [18/Mar/2024 22:59:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-18 23:00:05,748 - INFO: Prediction: [599.88537698]
+2024-03-18 23:00:05,749 - INFO: 127.0.0.1 - - [18/Mar/2024 23:00:05] "POST /predict HTTP/1.1" 200 -
+2024-03-18 23:42:54,338 - INFO: Rendering index.html
+2024-03-18 23:42:54,338 - INFO: 127.0.0.1 - - [18/Mar/2024 23:42:54] "GET / HTTP/1.1" 200 -
+2024-03-18 23:42:54,387 - INFO: 127.0.0.1 - - [18/Mar/2024 23:42:54] "GET /static/styles.css HTTP/1.1" 200 -
+2024-03-18 23:42:54,394 - INFO: 127.0.0.1 - - [18/Mar/2024 23:42:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:42:55,964 - INFO: Rendering index.html
+2024-03-18 23:42:55,964 - INFO: 127.0.0.1 - - [18/Mar/2024 23:42:55] "GET / HTTP/1.1" 200 -
+2024-03-18 23:42:55,987 - INFO: 127.0.0.1 - - [18/Mar/2024 23:42:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:42:55,987 - INFO: 127.0.0.1 - - [18/Mar/2024 23:42:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:43:59,626 - INFO: Rendering index.html
+2024-03-18 23:43:59,628 - INFO: 127.0.0.1 - - [18/Mar/2024 23:43:59] "GET / HTTP/1.1" 200 -
+2024-03-18 23:43:59,661 - INFO: 127.0.0.1 - - [18/Mar/2024 23:43:59] "GET /static/styles.css HTTP/1.1" 200 -
+2024-03-18 23:43:59,670 - INFO: 127.0.0.1 - - [18/Mar/2024 23:43:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:44:00,741 - INFO: Rendering index.html
+2024-03-18 23:44:00,741 - INFO: 127.0.0.1 - - [18/Mar/2024 23:44:00] "GET / HTTP/1.1" 200 -
+2024-03-18 23:44:00,763 - INFO: 127.0.0.1 - - [18/Mar/2024 23:44:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:44:00,767 - INFO: 127.0.0.1 - - [18/Mar/2024 23:44:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:44:02,077 - INFO: Rendering index.html
+2024-03-18 23:44:02,082 - INFO: 127.0.0.1 - - [18/Mar/2024 23:44:02] "GET / HTTP/1.1" 200 -
+2024-03-18 23:44:02,101 - INFO: 127.0.0.1 - - [18/Mar/2024 23:44:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:44:02,101 - INFO: 127.0.0.1 - - [18/Mar/2024 23:44:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:45:39,255 - INFO: Rendering index.html
+2024-03-18 23:45:39,259 - INFO: 127.0.0.1 - - [18/Mar/2024 23:45:39] "GET / HTTP/1.1" 200 -
+2024-03-18 23:45:39,270 - INFO: 127.0.0.1 - - [18/Mar/2024 23:45:39] "[33mGET /path/to/your/image.jpg HTTP/1.1[0m" 404 -
+2024-03-18 23:45:39,273 - INFO: 127.0.0.1 - - [18/Mar/2024 23:45:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:45:39,274 - INFO: 127.0.0.1 - - [18/Mar/2024 23:45:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:46:07,144 - INFO: Rendering index.html
+2024-03-18 23:46:07,145 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:07] "GET / HTTP/1.1" 200 -
+2024-03-18 23:46:07,171 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:07] "[33mGET /path/to/your/image.jpg HTTP/1.1[0m" 404 -
+2024-03-18 23:46:07,177 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:07] "GET /static/styles.css HTTP/1.1" 200 -
+2024-03-18 23:46:07,179 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:46:08,619 - INFO: Rendering index.html
+2024-03-18 23:46:08,619 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:08] "GET / HTTP/1.1" 200 -
+2024-03-18 23:46:08,649 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:08] "[33mGET /path/to/your/image.jpg HTTP/1.1[0m" 404 -
+2024-03-18 23:46:08,655 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:46:08,656 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:46:10,147 - INFO: Rendering index.html
+2024-03-18 23:46:10,147 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:10] "GET / HTTP/1.1" 200 -
+2024-03-18 23:46:10,169 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:10] "[33mGET /path/to/your/image.jpg HTTP/1.1[0m" 404 -
+2024-03-18 23:46:10,174 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:46:10,174 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:46:33,029 - INFO: Rendering index.html
+2024-03-18 23:46:33,038 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:33] "GET / HTTP/1.1" 200 -
+2024-03-18 23:46:33,056 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:33] "GET /static/styles.css HTTP/1.1" 200 -
+2024-03-18 23:46:33,056 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:46:35,351 - INFO: Rendering index.html
+2024-03-18 23:46:35,352 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:35] "GET / HTTP/1.1" 200 -
+2024-03-18 23:46:35,370 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-03-18 23:46:35,370 - INFO: 127.0.0.1 - - [18/Mar/2024 23:46:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-03-18 23:49:06,370 - INFO: Prediction: [600.43912698]
+2024-03-18 23:49:06,370 - INFO: 127.0.0.1 - - [18/Mar/2024 23:49:06] "POST /predict HTTP/1.1" 200 -
